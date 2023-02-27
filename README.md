@@ -65,7 +65,39 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-# LaravelExample
+# Laravel Teamplate Example for 2023 versions of Laravel & PHP 
+Date: 27.02.2023
+
+# Development
+
+## Project commands
+
+composer install
+cp .env.example .env
+create db in phpMyAdmin and replace DB_NAME in .env file
+php artisan key:generate
+php artisan migrate
+php artisan serve
+access website at localhost:8000
+
+php artisan serve
+php artisan make:migration create_name_table
+php artisan migrate
+php artisan migrate:rollback
+
+## Project Tasks
+- ~~created empty laravel template~~
+- ~~create git repo~~
+- choose a different template
+- choose a name
+- choose a suitable color pallete
+
+
+## Project Features
+- enable dark/light mode
+- add table columns in db
+
+
+## Sources
 
 Youtube tutorial: https://www.youtube.com/watch?v=2bz5eleBj98
-Date: 27.02.2023
