@@ -20,10 +20,10 @@
 </head>
 <body>
 <!-- Navigation-->
-<nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light" id="mainNav">
     <div class="container px-4 px-lg-5">
         <a class="navbar-brand" href="{{ route('home')}}">Start Bootstrap</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+        <button class="navbar-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
             <i class="fas fa-bars"></i>
@@ -38,7 +38,12 @@
         </div>
     </div>
 </nav>
+
+
 @yield('content')
+
+
+
 <!-- Footer-->
 <footer class="border-top">
     <div class="container px-4 px-lg-5">
