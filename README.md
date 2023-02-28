@@ -97,6 +97,11 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - add table columns in db
 
 
-## Sources
+## Versions
+
+- PHP 8.1.10
+- Laravel 9
+- blade languange
+
 
 Youtube tutorial: https://www.youtube.com/watch?v=2bz5eleBj98
