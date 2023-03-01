@@ -11,7 +11,7 @@
                             <h2 class="post-title">{{$post->title}}</h2>
                             <h3 class="post-subtitle">{{$post->post_text}}</h3>
                         </a>
-                        <p class="post-meta">Posted by<a href="#">Denisa Mihut</a>{{$post->created_at}}</p>
+                        <p class="post-meta">Posted by <a href="#">Denisa Mihut</a>{{$post->created_at}}</p>
                     </div>
                     <hr class="my-4"/>
                 @endforeach
@@ -19,7 +19,7 @@
 
             <div class="col-3 mt-4">
                 <div class="card mb-4">
-                    <div class="card-header">Categories</div>
+                    <div class="card-header bg-white">Categories</div>
                     <div class="card-body">
                         <div class="row">
                             <div class="col-sm-12">
