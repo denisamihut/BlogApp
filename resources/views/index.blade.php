@@ -7,7 +7,7 @@
             <div class="col-9">
                 @foreach($posts as $post)
                     <div class="post-preview">
-                        <a href="#">
+                        <a href="{{route('posts.show', $post->id)}}">
                             <h2 class="post-title">{{$post->title}}</h2>
                             <h3 class="post-subtitle">{{$post->post_text}}</h3>
                         </a>
