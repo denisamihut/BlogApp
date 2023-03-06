@@ -67,6 +67,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 # Laravel Template Example for 2023 versions of Laravel & PHP: 27.02.2023
 
+# Crating new project
+- composer global require laravel/installer
+- laravel new name
 # Development
 
 ## Project commands
